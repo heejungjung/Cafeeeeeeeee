@@ -1,27 +1,27 @@
-package com.yi.domain;
+package com.yi.domain; //이 아이가 수정되엇습니당!board
 
 import java.util.ArrayList;
 import java.util.Date;
 
 public class BoardVO {
-	private int boardNo; // 게시글번호
-	private BoardKindsVO boardNo2; // 게시판번호
-	private KeywordcateVO keySortNo; // 키워드분류번호
-	private UsersVO userNo; // 회원번호
-	private ZoneVO zoneNo; // 지역번호
-	private ThemeVO themeNo; // 테마번호
-	private CafeVO cafeNo; // 카페번호
-	private Condition writingLockCondition;// 글 잠금여부
-	private String writingTitle;// 글제목
-	private Date registrationDate;// 작성일
-	private Date updateDate;// 수정일
-	private int viewNumber;// 조회수
-	private int voteNumber;// 추천수
-	private String writingContent;// 글내용
-	private String address; // 추가된주소(무까인 추천 -> 새로운 카페 주소)
-	private ArrayList<ImageVO> files; // 이미지, Image 테이블에서 파일 이름을 가져옴
-	private ArrayList<String> stringFiles; // -- 임시로 생성
-	private Condition boardDelCdt; // 삭제여부판단
+	private int boardNo; // 寃뚯떆湲�踰덊샇
+	private BoardKindsVO boardNo2; // 寃뚯떆�뙋踰덊샇
+	private KeywordcateVO keySortNo; // �궎�썙�뱶遺꾨쪟踰덊샇
+	private UsersVO userNo; // �쉶�썝踰덊샇
+	private ZoneVO zoneNo; // 吏��뿭踰덊샇
+	private ThemeVO themeNo; // �뀒留덈쾲�샇
+	private CafeVO cafeNo; // 移댄럹踰덊샇
+	private Condition writingLockCondition;// 湲� �옞湲덉뿬遺�
+	private String writingTitle;// 湲��젣紐�
+	private Date registrationDate;// �옉�꽦�씪
+	private Date updateDate;// �닔�젙�씪
+	private int viewNumber;// 議고쉶�닔
+	private int voteNumber;// 異붿쿇�닔
+	private String writingContent;// 湲��궡�슜
+	private String address; // 異붽��맂二쇱냼(臾닿퉴�씤 異붿쿇 -> �깉濡쒖슫 移댄럹 二쇱냼)
+	private ArrayList<ImageVO> files; // �씠誘몄�, Image �뀒�씠釉붿뿉�꽌 �뙆�씪 �씠由꾩쓣 媛��졇�샂
+	private ArrayList<String> stringFiles; // -- �엫�떆濡� �깮�꽦
+	private Condition boardDelCdt; // �궘�젣�뿬遺��뙋�떒
 	private int replyCnt;
 
 	public BoardVO() {
